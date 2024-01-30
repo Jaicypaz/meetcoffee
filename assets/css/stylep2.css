@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+header, section, div {
+  width: 60%; /* para modificar el ancho */
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%; /* responsive  */
+}
+
+/* listo el cambio de color de icon*/
+body nav {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 30px 120px;
+  font-size: 30px;
+}
+body nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+}
+body nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a img {
+  filter: invert(1); 
+
+
+.subtitulo { font-size: 50px;
+
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 90px;
+  font-family: "Open sans";
+
+
+}
+header h1 {
+  font-size: 50px;
+}
+header h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+/* UBICACION  */
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 270px;
+  font-size: 30px;
+  display: flex;
+  align-items: center; /* centrar verticalmente*/
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  filter: invert(1);
+  margin-bottom: 30px;
+}

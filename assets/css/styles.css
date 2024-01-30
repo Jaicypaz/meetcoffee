@@ -1,0 +1,164 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+body {
+  line-height: 1.6; 
+  font-size: 16px; 
+  font-family: "Open Sans";
+}
+
+/* La barra de navegacion debe ir de 
+color negro, pero debo cambiar el color del icon*/
+body nav {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 20px 120px;
+  font-size: 20px;
+}
+body nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+}
+body nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a img {
+  filter: invert(1); 
+}
+
+/* HEADER */
+
+header {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  
+  font-family: monospace;
+  text-shadow: 0px 3px 6px black;
+  color: white;
+}
+header h1 {
+  font-size: 70px;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+/* UBICACION  */
+
+#ubicacion {
+  text-align: center; /* imagen centrada */
+  margin-top: 100px;
+}
+
+#ubicacion img {
+  display: block; /* convierte la imagen en bloque */
+  margin: 0 auto; /* horizontal */
+}
+
+#ubicacion h2 {
+  font-size: 40px;
+  margin: 40px 0 20px; 
+}
+
+#ubicacion p {
+  font-size: 30px;
+}
+  
+#proxima-charla {
+background-color: brown;
+color: white;
+padding: 100px;
+text-align: center; /* centrar el contenido */
+}
+
+#proxima-charla .centrado {
+display: flex; /
+justify-content: center; /
+align-items: center; 
+flex-wrap: wrap; 
+}
+
+#proxima-charla .charla-speaker {
+width: 400px; /* pendiente revisar el ajuste de la imagen */
+height: auto; 
+margin-center: auto; 
+display: block;
+
+}
+
+#proxima-charla .charla-texto {
+flex: 1; 
+text-align: center; 
+}
+
+#proxima-charla h2 {
+font-size: 60px;
+}
+
+#proxima-charla h3 {
+font-size: 30px;
+}
+
+#proxima-charla h4,
+#proxima-charla h5,
+#proxima-charla p {
+font-size: 25px;
+}
+
+/* Eventos */
+
+#eventos {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 100px; 
+}
+
+#eventos h2 {
+font-size: 50px;
+margin-bottom: 40px;
+}
+
+#eventos article {
+flex: 0 0 30%;
+text-align: center;
+margin: 10px;
+display: inline-block;
+margin: 0px 50px;
+font-size: 30px;
+}
+#eventos article img {
+margin-bottom: 30px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 120px;
+  font-size: 20px;
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  justify-content: center; /* Centra horizontalmente los elementos hijos */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  filter: invert(1);
+  margin-bottom: 30px;
+}
+
+

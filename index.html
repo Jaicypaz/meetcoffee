@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head es la informacion que lee el navegador-->
+<!-- INICIO DE DEL HEAD-->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" width="25px">
+  <meta name="author" content="Jaicy Paz">
+
+  <meta name="description" content="Comparte tus conocimientos tomando
+    café">
+  <meta name="keywords" content="charlas, eventos, simposios,
+    tecnología, co-work">
+  <title>pagina1</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<!-- FINAL DE DEL HEAD-->
+<!--informacion que ve el usuario-->
+
+<body>
+  <!--nav se usa para las barras de navegacion. pueden haber multipleas barras-->
+  <nav>
+    <ul>
+      <!--el ul inicio de lista desordenada-->
+      <li>
+        <a href="#"><img src="assets/img/coffee-cup.svg" width="50" />
+        </a>
+      </li>
+      <li><a href="#">Ubicación</a></li>
+      <li><a href="#">Próxima Charla</a></li>
+      <li><a href="#">Eventos anteriores</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+    <!--el </ul> final de lista desordenada-->
+  </nav>
+  <!--es usado para definir la seccion de titulo. SOLO DEBE EXISTIR UN Header por codigo-->
+  <!-- INICIO DE DEL HEAD-->
+  <header>
+    <img src="assets/img/bg-hero.png" width="300" />
+    <h1>Descubre lo último en tecnología bebiendo café</h1>
+    <h2>Charlas, eventos y simposios sobre tecnología</h2>
+  </header>
+  <!-- INICIO DE DEL HEAD-->
+  <!--seccion para definir secciones. Estas divisiones sirven como envoltorios-->
+  <!--seccion de ubicacion-->
+  <section id="ubicacion">
+    <img src="assets/img/we-work.jpg" alt="We work location">
+    <h2>¿Donde nos juntamos?</h2>
+    <p>Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker 133, Providencia, Santiago.</p>
+
+    <section id="proxima-charla" class="sweet-brown">
+      <div class="centrado">
+        <img src="assets/img/speaker.jpg" alt="speaker" class="charla-speaker">
+        <div class="charla-texto">
+          <h2>Próxima charla</h2>
+          <h3>Big Data para Noobs</h3>
+          <h4>Rafaela Valdéz</h4>
+          <h5>Data scientis, phD Theoriccal Physics, Carneige Mellon University</h5>
+          <p>En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos
+            de una escala extrema.</p>
+        </div>
+      </div>
+    </section>
+    <section id="eventos">
+      <h2>Eventos anteriores</h2>
+      <article class="evento">
+        <img src="assets/img/simposio-vegan.jpg" alt="Events simposio vegan">
+        <h3>Simposio Vegan DB</h3>
+      </article>
+      <article class="evento">
+        <img src="assets/img/machine-learning.jpg" alt="machine-learning">
+        <h3>Machine learning 101</h3>
+      </article>
+      <article class="evento">
+        <img src="assets/img/scrum-sin-scream.jpg" alt="scrum-sin-scream">
+        <h3>Scrum sin scream</h3>
+      </article>
+    </section>
+    <!-- COMIENZO DEL PIE DE PAGINA-->
+    <footer id="contacto" class="oscuro">
+      <nav>
+        <ul>
+          <li><a href="#"><img src="assets/img/square-github.svg" width="100" /></li>
+          <li><a href="#"><img src="assets/img/square-twitter.svg" width="100" /></li>
+          <li><a href="#"><img src="assets/img/linkedin.svg" width="100" /></li>
+          <p class="copyright">Meet & coffe 2018. Todos los derechos reservados.</p>
+        </ul>
+      </nav>
+    </footer>
+    <!-- FINAL DEL PIE DE PAGINA-->
+</body>
+
+</html>
