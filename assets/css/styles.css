@@ -1,36 +1,75 @@
-
 * {
   margin: 0;
   padding: 0;
-  border:0;
+  border: 0;
 }
 
 body {
-  line-height: 1.6; 
-  font-size: 16px; 
+  text-align: center;
+  color: #000f08;
   font-family: "Open Sans";
 }
 
-/* La barra de navegacion debe ir de 
-color negro, pero debo cambiar el color del icon*/
-body nav {
-  background-color: black;
+/* Navbar */
+
+nav {
+  background-color: #000f08;
   color: white;
   text-align: left;
   padding: 20px 120px;
-  font-size: 20px;
+  font-size: 25px;
 }
-body nav ul li {
+
+nav li {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 70px;
+  margin-right: 60px;
 }
-body nav ul li a {
+
+nav li a {
   color: white;
   text-decoration: none;
 }
+
 nav ul li a img {
   filter: invert(1); 
+}
+
+/* Hero Section */
+
+header {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* Ubicación */
+
+#Ubicacion {
+  padding: 150px;
+}
+
+#Ubicacion h2 {
+  font-size: 45px;
+  margin: 40px 0px 20px 0px;
+}
+
+#Ubicacion p {
+  font-size: 25px;
 }
 
 /* HEADER */
@@ -73,46 +112,56 @@ header h2 {
 #ubicacion p {
   font-size: 30px;
 }
-  
-#proxima-charla {
-background-color: brown;
-color: white;
-padding: 100px;
-text-align: center; /* centrar el contenido */
+
+#Proxima-charla {
+  background-color: #d35400; 
+  color: white;  
+  padding: 100px; 
+}
+/* Próxima charla */
+
+
+#Proxima-charla img {
+  height: 400px;
 }
 
-#proxima-charla .centrado {
-display: flex; /
-justify-content: center; /
-align-items: center; 
-flex-wrap: wrap; 
+#Proxima-charla img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-#proxima-charla .charla-speaker {
-width: 400px; /* pendiente revisar el ajuste de la imagen */
-height: auto; 
-margin-center: auto; 
-display: block;
-
+#Proxima-charla .texto {
+  text-align: left;
+  width: 100%;
+  margin-left: 100px;
 }
 
-#proxima-charla .charla-texto {
-flex: 1; 
-text-align: center; 
+#Proxima-charla .texto h3 {
+  font-size: 45px;
 }
 
-#proxima-charla h2 {
-font-size: 60px;
+#Proxima-charla .texto h4 {
+  font-size: 40px;
+  padding-bottom: 10px;
 }
 
-#proxima-charla h3 {
-font-size: 30px;
+#Proxima-charla .texto h6 {
+  font-size: 33px;
 }
 
-#proxima-charla h4,
-#proxima-charla h5,
-#proxima-charla p {
-font-size: 25px;
+#Proxima-charla .texto span {
+  font-size: 20px;
+}
+
+#Proxima-charla .texto p {
+  font-size: 25px;
+}
+
+#Proxima-charla .texto h6,
+span,
+p {
+  font-weight: 400;
 }
 
 /* Eventos */
